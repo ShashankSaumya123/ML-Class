@@ -1,17 +1,10 @@
-If the data has only 2 features:
-Get a scatterplot and visually try to notice the ammount of clusters you can see.
+If the data has only 2 features:    Get a scatterplot and visually try to notice the ammount of clusters you can see.
 
 If the data has many features:
-1) Look at only 2 important features and ignore all others. Then plot and visually look for number of clusters.
+   1) Look at only 2 important features and ignore all others. Then plot and visually look for number of clusters.
 
-2) Look at the source of the data, it may give you hints.
-   For example, if it is a data images of blood cells, there are 3 types of blood cells.
-   RBC, WBC and platelets. So, 3 would be a good value of k.
+   2) Look at the source of the data, it may give you hints. For example, if it is a data images of blood cells, there are 3 types of blood cells. RBC, WBC and platelets. So, 3 would be a good value of k.
 
-3) If you cannot determine the exact perfect k, maybe you can have an estimate range (say, k should lie in from 1 to 10).
-   Then go for a random value in that range.
+   3) If you cannot determine the exact perfect k, maybe you can have an estimate range (say, k should lie in from 1 to 10). Then go for a random value in that range.
 
-4) Say if there are 5 features, sort the data according to the 1st feature and look if there are multiple small ranges where many points lie in it.
-   They could be an indication of a cluster. Note the number of such groups.
-   Then repeat by sorting according to the 2nd feature, then 3rd and so on.
-   Compare the possible cluster values you found and either take their mean or a random one from those numbers as k.
+   4) Say if there are 5 features, sort the data according to the 1st feature and look if there are multiple small ranges where many points lie in it. They could be an indication of a cluster. Note the number of such groups. Then repeat by sorting according to the 2nd feature, then 3rd and so on. Compare the possible cluster values you found and either take their mean or a random one from those numbers as k.
