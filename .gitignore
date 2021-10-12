@@ -128,3 +128,4 @@ dmypy.json
 # Pyre type checker
 .pyre/
 Project/WBC_data_kaggle.zip
+Project/WBC_data_kaggle
